@@ -7,9 +7,10 @@ class Cats extends Component {
         
     }
     componentDidMount(){
-        this.props.OnLoad();
+        this.props.onLoad();
         // console.log('hsh')
     }
+    
 
     render(){
         const { cats } = this.props;
