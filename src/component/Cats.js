@@ -16,9 +16,9 @@ class Cats extends Component {
     }
     
     onChange(event) {
-        const selected = event.value;
+        const selectedCat = event.value;
         this.setState({
-            selected: selected,
+            selected: selectedCat,
         })
     }
    
@@ -36,7 +36,7 @@ class Cats extends Component {
                     onChange={this.onChange.bind(this)}
                      options = {cats.map((item, index) => (
                         {
-                            value: item.name,
+                            value: item,
                             label: item.name
                         }
 
