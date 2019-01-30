@@ -6,15 +6,25 @@ import Select from 'react-select';
 class Cats extends Component {
     constructor(props){
         super(props);
-        
+        this.state = {
+            selected: '',
+        };
     }
+
     componentDidMount(){
         this.props.onLoad();
     }
     
-
+    onChange(event) {
+        const selected = event.value;
+        this.setState({
+            selected: selected,
+        })
+    }
+   
     render(){
         const { cats } = this.props;
+        console.log(this.state.selected);
        
         return(
             <>
@@ -22,11 +32,14 @@ class Cats extends Component {
                     <h2>Cats</h2>
                 </div>
                 <div>
-                    <Select options = {cats.map((item, index) => (
+                    <Select
+                    onChange={this.onChange.bind(this)}
+                     options = {cats.map((item, index) => (
                         {
                             value: item.name,
                             label: item.name
                         }
+
                     ))}/>
                 </div>
             </>
