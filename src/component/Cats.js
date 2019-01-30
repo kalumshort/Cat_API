@@ -1,5 +1,4 @@
 import React , { Component } from 'react';
-import Cat from './Cat.js';
 import Select from 'react-select';
 
 
@@ -16,15 +15,12 @@ class Cats extends Component {
     }
     
     onChange(event) {
-        const selectedCat = event.value;
-        this.setState({
-            selected: selectedCat,
-        })
+        const clickedCat = event.value;
+        this.props.chosenCat(clickedCat);
     }
    
     render(){
         const { cats } = this.props;
-        console.log(this.state.selected);
        
         return(
             <>

@@ -4,3 +4,10 @@ export const setCats = cats => {
         cats: cats,
     }
 }
+
+export const setSelectedCat = clickedCat => {
+    return {
+        type: 'setSelectedCat',
+        cat : clickedCat,
+    }
+}
