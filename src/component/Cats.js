@@ -15,8 +15,7 @@ class Cats extends Component {
     }
     
     onChange(event) {
-        const clickedCat = event.value;
-        this.props.chosenCat(clickedCat);
+        this.props.chosenCat(event.value);
     }
    
     render(){

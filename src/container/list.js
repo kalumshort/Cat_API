@@ -10,7 +10,7 @@ const mapStateToProps = ({ cats, cat }) => ({ cats, cat });
 const mapDispatchToProps = dispatch => {
     return {
         onLoad: () => dispatch(getCats()),
-        chosenCat: clickedCat => dispatch(setSelectedCat(clickedCat)),
+        chosenCat: value => dispatch(setSelectedCat(value)),
     };
 }
 export default connect(mapStateToProps, mapDispatchToProps)(Cats);

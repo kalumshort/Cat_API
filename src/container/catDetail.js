@@ -3,8 +3,7 @@ import { connect } from 'react-redux';
 import CatDetail from '../component/CatDetail';
 
 
-
-const mapStateToProps = ({ cat }) => ({ cat });
+const mapStateToProps = ({ DisplayCat }) => ({ DisplayCat });
 
 
 export default connect(mapStateToProps)(CatDetail);

@@ -1,7 +1,7 @@
 export default  (state, action) => {
     switch(action.type) {
         case 'setCats' : return setCats(state,action);
-        case 'setSelectedCat': return setSelectedCat(state,action);
+        case 'setSelectedCat': return{...state, DisplayCat: action.cat};
         default: return state;
     }
 }
@@ -13,9 +13,9 @@ const setCats = (state, { cats }) => {
     }
 }
 
-const setSelectedCat = ( state, clickedCat ) => {
+const setSelectedCat = ( state, cat ) => {
     return {
         ...state,
-        cat: clickedCat,
+        DisplayCat: cat,
     }
 }
