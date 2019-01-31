@@ -2,11 +2,6 @@ import React , { Component } from 'react';
 
 
 class CatDetail extends Component {
-    // constructor(props){
-    //     super(props);
-       
-    // }
-   
     render(){
         const { DisplayCat } = this.props;
 

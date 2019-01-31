@@ -12,10 +12,3 @@ const setCats = (state, { cats }) => {
         cats: cats,
     }
 }
-
-const setSelectedCat = ( state, cat ) => {
-    return {
-        ...state,
-        DisplayCat: cat,
-    }
-}
