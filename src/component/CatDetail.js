@@ -10,7 +10,9 @@ class CatDetail extends Component {
         return(
             <>
                 <div>
-                    <h2>{DisplayCat.name}</h2>
+                    <div>
+                        <h2>{DisplayCat.name}</h2>
+                    </div>
                 </div>
             </>
         )

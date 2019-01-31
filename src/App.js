@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Cats from './container/list';
+import Cats from './container/catSelector';
 import CatDetail from './container/catDetail';
 
 class App extends Component {
