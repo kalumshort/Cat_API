@@ -7,8 +7,10 @@ class App extends Component {
   render() {
     return (
         <>
-          <Cats/>
-          <CatDetail/>
+          <div className="app-components">
+            <Cats className="CatSelectorContainer"/>
+            <CatDetail className="CatDetailContainer"/>
+          </div>
         </>
     );
   }

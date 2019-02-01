@@ -9,9 +9,9 @@ class CatDetail extends Component {
        
         return(
             <>
-                <div>
+                <div className="display-cat-container">
                     <div>
-                        <h2>{DisplayCat.name}</h2>
+                        <h2 className="display-cat-name">{DisplayCat.name}</h2>
                     </div>
                 </div>
             </>

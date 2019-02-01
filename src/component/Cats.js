@@ -1,6 +1,7 @@
 import React , { Component } from 'react';
 import Select from 'react-select';
 
+import '../index.css';
 
 class Cats extends Component {
     constructor(props){
@@ -24,12 +25,13 @@ class Cats extends Component {
         return(
             <>
                 <div>
-                    <h2>Cats</h2>
+                    <h2 className="cats-header">Cat Breed Selector</h2>
                 </div>
-                <div>
+                <div className="cat-selector-field">
                     <Select
+                    className="selector"
                     onChange={this.onChange.bind(this)}
-                     options = {cats.map((item, index) => (
+                     options = {cats.map((item) => (
                         {
                             value: item,
                             label: item.name
