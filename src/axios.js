@@ -1,5 +1,7 @@
+// importing the axios files to access apis
 import axios from 'axios';
 
+// setting up the base URL to use for the api calls
 export default axios.create({
     baseURL: 'https://api.thecatapi.com/v1',
     headers: {
