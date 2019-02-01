@@ -45,4 +45,11 @@ code {
 }
 .display-cat-name {
 	color: #a707f7;
+	text-align: center;
+}
+.display-cat-desciption {
+	text-align: center;
+}
+.display-cat-origin {
+	text-align: center;
 }
