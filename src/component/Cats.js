@@ -29,7 +29,7 @@ class Cats extends Component {
                 </div>
                 <div className="cat-selector-field">
                     <Select
-                    className="selector"
+                    className="cat-selector"
                     onChange={this.onChange.bind(this)}
                      options = {cats.map((item) => (
                         {
