@@ -1,13 +1,13 @@
 {
-  "main.css": "/Cat_API/static/css/main.150e490e.chunk.css",
-  "main.js": "/Cat_API/static/js/main.2da506e7.chunk.js",
-  "main.js.map": "/Cat_API/static/js/main.2da506e7.chunk.js.map",
+  "main.css": "/Cat_API/static/css/main.102d0f74.chunk.css",
+  "main.js": "/Cat_API/static/js/main.7eea9cf8.chunk.js",
+  "main.js.map": "/Cat_API/static/js/main.7eea9cf8.chunk.js.map",
   "static/js/1.e9ad7628.chunk.js": "/Cat_API/static/js/1.e9ad7628.chunk.js",
   "static/js/1.e9ad7628.chunk.js.map": "/Cat_API/static/js/1.e9ad7628.chunk.js.map",
   "runtime~main.js": "/Cat_API/static/js/runtime~main.76ec4797.js",
   "runtime~main.js.map": "/Cat_API/static/js/runtime~main.76ec4797.js.map",
-  "static/css/main.150e490e.chunk.css.map": "/Cat_API/static/css/main.150e490e.chunk.css.map",
+  "static/css/main.102d0f74.chunk.css.map": "/Cat_API/static/css/main.102d0f74.chunk.css.map",
   "index.html": "/Cat_API/index.html",
-  "precache-manifest.5569493088149483497ab88b2d06312a.js": "/Cat_API/precache-manifest.5569493088149483497ab88b2d06312a.js",
+  "precache-manifest.17168b7134e84657f7a27cbd3e431040.js": "/Cat_API/precache-manifest.17168b7134e84657f7a27cbd3e431040.js",
   "service-worker.js": "/Cat_API/service-worker.js"
 }
